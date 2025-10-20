@@ -1,0 +1,73 @@
+
+      #members-dt td,
+      #members-dt th {
+          white-space: nowrap;
+      }
+
+      #members-dir label {
+          font-size:16px;
+          font-weight: 600;
+      }
+
+      #members-dir select#columnVisibility {
+          height:160px;
+          border-color:#CCC;
+      }
+      #members-dir #columnVisibility option {
+          font-size:14px;
+      }
+
+      #members-dt_wrapper{
+
+          margin: 20px 0;
+
+      }
+
+      #members-dt_filter input{
+
+          border: 1px solid #CCC;
+          border-radius: 3px;
+
+      }
+      .dataTables_filter{
+          margin-bottom:20px;
+      }
+      .dataTables_length{
+          float: none;
+          position: absolute;
+          margin-top: -100px;
+          right: 0px;
+          display: inline-block;
+      }
+      #mod-members-edit label{
+          display: block;
+          margin-bottom:12px;
+      }
+
+      .members-btn{
+          display: inline-block;
+          padding: 5px 10px;
+          margin: 10px;
+          font-size: 12px;
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+          color: white;
+          background-color:#000000;
+          border: none;
+          border-radius: 5px;
+          transition: background-color 0.3s, color 0.3s;
+      }
+
+      .members-btn:hover {
+          background-color: #888888;
+          color: #ffffff;
+      }
+
+      #members-dir-wrapper form{
+          margin-top:20px;
+      }
+
+      #members-dir-wrapper label{
+          margin-top:20px;
+      }

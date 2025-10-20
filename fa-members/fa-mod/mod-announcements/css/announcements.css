@@ -1,0 +1,77 @@
+.announcement-filter {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.announcement-filter select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.announcement-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.announcement-item {
+    /* Changed 0 to 1 here */
+    flex: 1 1 calc(33.333% - 20px); /* 3 columns, but flexible enough for partial rows */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s ease;
+}
+
+.announcement-item:hover {
+    transform: translateY(-5px);
+}
+
+.announcement-image img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.announcement-title h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.announcement-title h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.announcement-date {
+    font-size: 14px;
+    color: #666;
+}
+
+.announcement-pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.announcement-pagination a {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #0073aa;
+    transition: background-color 0.3s ease;
+}
+
+.announcement-pagination a:hover {
+    background-color: #0073aa;
+    color: #fff;
+}

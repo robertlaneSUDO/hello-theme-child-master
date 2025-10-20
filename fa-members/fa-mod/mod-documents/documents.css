@@ -1,0 +1,92 @@
+/* Backend metabox list */
+#fa-document-files-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#fa-document-files-list li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#fa-document-files-list li a {
+    margin-right: 8px;
+}
+
+.copy-shortcode-button,
+.copy-shortcode-all-button {
+    font-size: 11px;
+    padding: 2px 6px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+#fa-add-document-file.button-primary {
+    background-color: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+}
+
+#fa-add-document-file.button-primary:hover {
+    background-color: #135e96;
+    border-color: #135e96;
+}
+
+/* Frontend document list */
+ul.fa-document-files {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.fa-document-files li {
+    margin-bottom: 6px;
+}
+
+.fa-documents-filter {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.fa-documents-filter select,
+.fa-documents-filter button {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.fa-documents-pagination {
+    margin-top: 15px;
+}
+
+.fa-documents-pagination ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.fa-documents-pagination li {
+    display: inline;
+}
+.fa-documents-filter {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+
+.fa-documents-filter select {
+    padding: 5px 10px;
+    font-size: 14px;
+    height: auto;
+}
+
+.fa-documents-filter button {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+}
